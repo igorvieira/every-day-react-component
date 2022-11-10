@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { Card } from '.'
 
 export default {
-  title: 'Example/Card',
+  title: 'Components/Card',
   args: {
     imageURL: 'https://www.w3schools.com/w3css/img_snowtops.jpg',
     title: 'Xablau',

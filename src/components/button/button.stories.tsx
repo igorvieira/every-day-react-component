@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from ".";
 
 export default {
-  title: "Example/Button",
+  title: "Components/Button",
   args: {
     label: "Click me!",
     onClick: () => alert("Xablau!"),
