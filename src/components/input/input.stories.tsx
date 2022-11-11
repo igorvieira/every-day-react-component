@@ -4,6 +4,10 @@ import Input from '.'
 
 export default {
   title: 'Components/Input',
+  args: {
+    label: 'Name',
+    onChange: (e) => console.log(e.target.value)
+  },
   component: Input
 } as ComponentMeta<typeof Input>;
 
