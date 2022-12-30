@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import React from "react";
-import Button from "../button";
+import Button from "../Button";
 import "./styles.css";
 
 export type ModalContentProps = {
