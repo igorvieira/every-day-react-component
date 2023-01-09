@@ -1,0 +1,46 @@
+
+select {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  background-color: rebeccapurple;
+  background-image: none;
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  border-radius: .25em;
+  overflow: hidden;
+}
+
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  color: #fff;
+  top: 1px;
+  right: 1px;
+  padding-top: 14px;
+  background-color: rosybrown;
+  transition: .25s all ease;
+  pointer-events: none;
+  padding-bottom: 12px;
+  border: 33px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+
