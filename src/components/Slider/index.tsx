@@ -1,13 +1,7 @@
 import { useState } from 'react'
 import './styles.css'
 
-export type SliderProps = {
-  children: React.ReactNode
-}
-
-const MAX = 10;
-
-const Slider = ({children}: SliderProps) => {
+const Slider = () => {
   const [value, setValue] = useState(0)
 
   const getBackgroundSize = () => {
