@@ -1,20 +1,21 @@
 import './styles.css'
 
 export type ToggleProps = {
+  id: string
   checked: boolean
   onChange: () => void
 }
 
-const Toggle = ({checked, onChange}: ToggleProps) => (
-  <div className='container'>
+const Toggle = ({ checked, onChange, id }: ToggleProps) => (
+  <div className="container">
     <input
-      className='toggle-input'
-      type='checkbox'
+      className="toggle-input"
+      type="checkbox"
       checked={checked}
       onChange={onChange}
-      id='input-checkbox'
+      id={id}
     />
-    <label className='toggle-label' htmlFor='input-checkbox' />
+    <label className="toggle-label" htmlFor={id} />
   </div>
 )
 
